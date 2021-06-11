@@ -17,12 +17,12 @@
     width: 100%;
     height: auto;
   }
-.scratch {
+.scratch.1, .scrtach.2 {
     position: relative;
     padding-bottom: 75%; // This is the aspect ratio
     overflow: hidden;
     }
-.scratch iframe {
+.scratch.1 iframe, .scrtach.2 iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -51,7 +51,6 @@
   </tr>
 </table>
 
-<div class="scratch">
 <fieldset>
 <legend><img src="防災小測驗.png" width="300" height="80"></legend>
 <table>
@@ -61,8 +60,10 @@
   </tr>
   <tr>
     <td><P Align=center>
+<div class="scratch.1">
         <iframe src="https://scratch.mit.edu/projects/525806252/embed" allowtransparency="true" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    </td>
+</div>    
+	</td>
     <td><h2>1.操作說明：</h2>
         <h3>按下左右方向鍵移動人物，並蒐集到正確的防災用品。</h3>
         <h3>限時 30 秒，接到正確的防災用品加 5 分，接到錯誤的防災用品扣 5 分。</h3>
@@ -77,8 +78,10 @@
   </tr>
   <tr>
     <td><P Align=center>
+    <div class="scrtach.2">
       <iframe src="https://scratch.mit.edu/projects/261707527/embed" allowtransparency="true" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    </td>
+    </div>
+	    </td>
     <td><h2>1.操作說明：</h2>
         <h3>使用上下左右方向鍵移動人物，並走到正確位置收集防災用品。</h3>
         <h3>限時 130 秒，獲得正確的防災用品加 1 分並會顯示於清單中，獲得錯誤的防災用品扣 1 分。</h3>
@@ -89,5 +92,4 @@
     </td>
   </tr>
 </fieldset>
-</div>
 </body>
