@@ -6,10 +6,9 @@
    <style>
 	  #test1 { text-shadow:5px 5px 5px gray; font-size:30px;}
    </style>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
    <style>
  @media (min-width: 375px) and (max-width: 500px) {
-
   p {
     font-size: 20px;
   }
@@ -17,17 +16,17 @@
     width: 100%;
     height: auto;
   }
-.scratch {
+  .scrtach {
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 75%; // This is the aspect ratio
     overflow: hidden;
     }
-.scratch iframe {
+  .scrtach iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100% ;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     }
 }
 </style>
@@ -51,7 +50,7 @@
   </tr>
 </table>
 
-<div class="scratch">
+<div class="scrtach">
 <fieldset>
 <legend><img src="防災小測驗.png" width="300" height="80"></legend>
 <table>
